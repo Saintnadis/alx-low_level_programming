@@ -2,14 +2,20 @@
 /**
  * print_alphabet - Entry point
  * Descriptions: a fxn to print alphabet
- * Return: void
+ * Return: 0
  */
-void print_aphabet(void)
-{
-	char letters;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+void print_alphabet(void)
+{
+
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		_putchar(letters);
+		_putchar(c);
+		c++;
+
 	}
 	_putchar('\n');
+
+}
