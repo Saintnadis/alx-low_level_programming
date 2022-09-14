@@ -6,11 +6,10 @@
  */
 void print_aphabet(void)
 {
-	char letters = 'a';
+	char letters;
 
-	while (letters <= 'z');
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		_putchar(letters);
-		letters++;
 	}
-	_putchar('\n')
+	_putchar('\n');
